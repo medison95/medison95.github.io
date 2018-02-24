@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>контакты</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+	<h1>Магазин геймеров</h1>
+	<ul>
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="katalog.html">Каталог</a></li>
+		<li><a href="kontakti.html">Контакты</a></li>
+	</ul>
+</div>
+<div class="container">
+	<br>
+<h1>Напишите нам</h1>
+	<form action="#" class="forma">
+
+		<fieldset>
+			<legend>контактные данные</legend><br>
+			<label><b id="input-name">Имя</b><input type="text" placeholder="Иван" required></label><br><br>
+			<label><b>Емайл</b><input type="email" placeholder="pupkin@mail.ru" required><br><br></label>
+			<label><b id="input-theme">Тема</b><input type="text" placeholder="Введите вашу тему!"></label><br><br>
+			<label><b>Сообщение</b><br><textarea name="message"  placeholder="Введите ваше сообщение!"></textarea></label><br><br>
+			<label><input type="radio" name="Pol"><b>Муж</b></label>
+			<label><input type="radio" name="Pol"><b>Жен</b></label><br><br>
+			<select name="" id="">
+				<option value="">За-мужем\Женат</option>
+				<option value="">Не-за-мужем\не Женат</option>
+				<option value="">Я-Грицык</option>
+				<option value="">Есть Кот</option>
+				<input type="hidden" value="client" name="client"><br><br>
+				<input type="submit" value="Отправить!">
+				<input type="reset" value="Сбросить!">
+
+			</select><br><br>
+		</fieldset>
+	</form>
+	<h2>Адресс</h2>
+	<ul>
+		<li>Контактный номер - 8 (800) 555 22 67 Бесплатно круглосуточно</li>
+		<li>E-mail: pr@condom-shop.ru</li>
+		<li>Юридический адрес: 127137, г.Москва, ул.Правды, дом 24,стр.7, 2 этаж</li>
+		<li>Skype: condomshopmsk, condomshopmsk2</li>
+	</ul>
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:374px;width:100%;'><div id='gmap_canvas' style='height:374px;width:100%;'></div><div><small><a href="https://embedgooglemaps.com/ru/">embedgooglemaps.com/ru</a></small></div><div><small><a href="https://mrpromokod.ru/">https://www.mrpromokod.ru/</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(55.7864254,37.5797202),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(55.7864254,37.5797202)});infowindow = new google.maps.InfoWindow({content:'<strong>москва</strong><br>улица правды<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	<br><div class="footer">
+	<p><b>&copy;все права защищены</b></p>
+</div>
+</div>
+</body>
+</html>

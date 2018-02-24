@@ -1,0 +1,247 @@
+
+body{
+	background-image: url("background/backbg.png");
+	font-family: 'Roboto', sans-serif;
+	background-size: 100px;
+}
+.photo_xarakteristic li:before{
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+p{
+	color: white;
+}
+.up	{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.up a {
+	color: #18ff00;
+}
+a {
+	text-decoration: none;
+	transition: .3s linear;
+}
+.border {
+	border: 3px solid #8dc417;
+}
+#textKrOp{
+	color: white;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+#textPodrOpis{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+input[type="text"],[type="email"]
+{
+	height: 25px;
+	width: 250px;
+	font-style: italic;
+	color: green;
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+input:focus[type="email"]
+{
+	color: mediumaquamarine;
+	background-color: crimson;
+}
+#input-name {
+	padding-right: 15px;
+}
+#input-theme {
+	padding-right: 9px;
+}
+textarea {
+	color: green;
+	text-transform: capitalize;
+}
+textarea[name="message"]{
+	width: 295px;
+	height: 60px;
+}
+.style-silka-tovara a{
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	float: left;
+	text-align: center;
+	margin:10px 0 0 5px;
+}
+.style-silka-tovara:hover {
+	color: #18ff00;
+}
+.new:after {
+	content:" new";
+	color:royalblue;
+}
+table  td {
+	text-align: center;
+	border: 2px solid;
+	border-color: white;
+	color: white;
+}
+th {
+background: white;
+	color: #5f4d49;
+	border: 2px solid;
+	border-color: #b7b7b7;
+	height: 50px;
+}
+img:hover{
+	border-color: transparent;
+}
+.container{
+	background-image: url("background/nvidiacontainer.jpg");
+	width: 950px;
+	min-height: 800px;
+	background-position: center;
+	background-size: 100% 100%;
+	position: relative;
+	margin: auto;
+}
+.header{
+	width: 950px;
+	margin:0 auto;
+	height: 100px;
+	background-image: url("background/nvidia.jpg");
+	background-position: top;
+	background-size: 70%;
+	border-bottom: solid #9e8883;
+}
+.header h1 {
+	background: none;
+	font-weight: 400;
+	font-size: 18px;
+	position: absolute;
+	margin: 35px 0 0 80px;
+	color: #b7b7b7;
+}
+
+.container h1,h2,h3 {
+	background-color: rgba(158, 136, 131, 0.5);
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.container li{
+	color: white;
+}
+
+#img6670 {
+	border: none !important;
+	padding-right: 10px;
+}
+.header ul li{
+	float: right;
+}
+.header ul li a {
+	color: #b7a09b;
+	padding: 0 10px;
+	line-height: 100px;
+	display: block;
+	height: 100px;
+	border-left: 1px solid;
+}
+.header a:hover {
+	background: #b19891;
+	padding: 0px 12px;
+	color: #5f4d49;
+}
+.footer {
+	height: 100px;
+	background-image: url("background/nvidia.jpg");
+	background-size: 70%;
+	background-position: bottom;
+	border-top: solid #9e8883;
+	width: 950px;
+	margin: auto;
+}
+.footer p {
+	text-align: right;
+	margin: 35px 40px 0px 0px;
+	color: #b7b7b7;
+}
+.fontcolor {
+	 color: white  !important;
+ }
+.fontcolor > i{
+	color: #71a600;
+	-webkit-animation: fa-spin 0.9s infinite linear;
+	animation: fa-spin 0.9s infinite linear;
+}
+.form{
+	max-width: 300px;
+	border-collapse: collapse;
+	color: white;
+	margin: 0 0 0 300px;
+}
+.forma{
+	max-width: 300px;
+	border-collapse: collapse;
+	color: white;
+}
+.kypiti a{
+	background: #94e20b;
+	border-radius: 4px;
+	position: absolute;
+	padding: 0 30px;
+	line-height: 30px;
+	color: white;
+	font-size:18px;
+	font-family: Arial;
+	margin:30px 0 0 600px;
+	cursor: pointer;
+	border-bottom: 3px solid #4b870c;
+}
+.kypiti:hover a{
+	background: #4b870c;
+	border-bottom: 3px solid #31600c;
+}
+.tab1 {
+	position: relative;
+	 margin: 0 0 0 0;
+	 width:500px;
+ }
+.tab2 {
+	position: relative;
+	margin: 200px 0px 0 0;
+	width:500px;
+}
+.tab3 {
+	position: relative;
+	margin: 200px 0 0 0px;
+	width:500px;
+}
+.cimage {
+	position: absolute;
+	width: 200px;
+	height: 190px;
+}
+.container img {
+	border: 4px solid #6baa0c;
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+.container img:hover {
+	border: 4px solid transparent;
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
