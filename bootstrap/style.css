@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+    height: 2000px;
+    font-family: 'Raleway', sans-serif;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 50px;
+    width: 50px;
+}
+div.d-flex{
+    height: 300px;
+}
+div.m-3{
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* настройка футера*/
+footer{
+    background-color:#222222;
+    color: white;
+}
+
+footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+}
+footer ul li{
+    float:left;
+}
+footer ul li a{
+    color:#b1aca1;
+    padding:20px;
+}
+footer ul li a:hover{
+    color:#7dabdb;
+    text-decoration:none;
+}
+
+.footer-top .fa{
+    font-size:25px;
+    color: #FFF;
+    padding-right:10px;
+}
+
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
+}
+.footer-top a:hover{
+    color:#7dabdb;
+}
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+    color:#7dabdb;
+}
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+    font-size:15px;
+    padding:15px 0 15px 0px;
+    color: black;
+}
