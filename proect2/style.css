@@ -31,7 +31,6 @@ body {
 }
 .logo{
     position: absolute;
-    background: url("logo/logotip.png");
     width: 125px;
     height: 111px;
     margin: 24px 0 0 234px;
