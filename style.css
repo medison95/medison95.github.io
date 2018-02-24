@@ -1,0 +1,51 @@
+body{
+    background-color: #dbdbdb;
+}
+
+center p {
+    font-size: xx-large;
+    color: #4b4b4b;
+    padding-top: 3%;
+}
+center a:hover {
+    text-decoration: none;
+}
+a img{
+    border-radius: 15px ;
+}
+a{
+    color: #000;
+}
+.col-12 {
+    display: flex;
+    align-items: stretch;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-facebook-f{
+    padding: 5px;
+    color: white;
+    transition: all ease 0.5s;
+}
+.fa-facebook-f:hover{
+    color: white;
+    width: 75px;
+    border-radius: 35px;
+    background-color: #3b5998;
+    transition: all ease 0.5s;
+}
+footer div {
+    font-size: x-large;
+}
+footer{
+    background-color: #232323;
+    color: white;
+}
+
+
+
